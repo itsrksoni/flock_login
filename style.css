@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    background-color: #f4f5f7;
+}
+
+.nav img {
+    width: 90px;
+    height: 100%;
+    border-style: none;
+}
+
+.nav-link {
+    float: right;
+}
+
+.nav {
+    padding: 30px;
+
+}
+
+.nav ul li a {
+    background: #fdbd00;
+    color: #fff;
+    border: 2px solid transparent;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.heading h3 {
+    text-align: center;
+}
+
+.login-form {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+input[type=text],
+input[type=password] {
+
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 1px;
+    box-shadow: none;
+    box-sizing: border-box;
+    height: 45px;
+    padding: 6px 10px;
+    width: 100%;
+    margin: 10px 0;
+
+}
+
+.container a {
+    color: #7e8591;
+}
+
+button {
+    background-color: #1bb165;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 2px;
+    margin: 7px 0;
+    width: 100%;
+    font-size: 18px;
+    border-style: none;
+
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+.external-signup-link a {
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+
+}
+
+.external-signup-link {
+
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+
+
+}
+
+.but-1 {
+
+
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: left;
+    width: 50%;
+
+    display: inline-block;
+
+}
+
+
+.but-2 {
+    display: inline-block;
+    margin: 0%;
+    float: right;
+    width: 50%;
+
+
+}
+
+.button {
+
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 50%;
+}
+
+
+.button1 {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border: 2px solid #007bff;
+}
+
+.button1:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.button2 {
+    display: inline-block;
+
+    background-color: white;
+    color: black;
+    border: 2px solid #212029;
+}
+
+.button2:hover {
+
+    background-color: #212029;
+    color: white;
+}
+
+
+
+.footer {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+p.foot-0 {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.foot-3 {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+
+}
+
+.foot-2 {
+    position: absolute;
+    bottom: 8px;
+    right: 200px;
+    font-size: 18px;
+
+}
+
+.foot-1 {
+    position: absolute;
+    bottom: 8px;
+    right: 400px;
+    font-size: 18px;
+
+}
