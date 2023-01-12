@@ -14,31 +14,51 @@ body {
 }
 
 .nav {
-    padding: 30px;
+    margin-bottom: 0px;
+    padding: 30px 30px 0px 30px;
 
 }
 
 .nav ul li a {
     background: #fdbd00;
     color: #fff;
-    border: 2px solid transparent;
+    border: 3px solid transparent;
     display: inline-block;
-    font-size: 1rem;
-    line-height: 1.5;
+    font-size: 1.3rem;
+    line-height: 1.7;
     text-decoration: none;
+}
+
+.nav ul li a:hover {
+
+    background-color: rgb(253 189 0 0.6);
+    color: white;
+    opacity: 0.5;
 }
 
 .nav ul {
     list-style: none;
 }
 
+.heading {
+    margin-top: 0%;
+    margin-left: 37%;
+    margin-right: 37%;
+
+}
+
 .heading h3 {
-    text-align: center;
+
+    text-align: left;
+    font-size: 2.125rem;
+    margin: 80px 0 20px;
+
 }
 
 .login-form {
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 37%;
+    margin-right: 37%;
+
 }
 
 input[type=text],
@@ -76,54 +96,78 @@ button:hover {
     opacity: 0.6;
 }
 
+
+@media screen and (min-width: 0px)and (max-width: 480px) {
+
+    .external-signup-link {
+
+        display: none;
+    }
+}
+
 .external-signup-link a {
+    margin: 0px;
     display: inline-block;
-    width: 80%;
+    width: 100%;
+
     height: 100%;
+    padding: 10px 0px 10px 0px;
+    font-size: 15px;
+
+
 
 }
+
+/* width: 80%; */
 
 .external-signup-link {
 
     text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 37%;
+    margin-right: 37%;
+    padding: 5px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+
 
 
 }
 
-.but-1 {
 
+.external-signup-link .signup-button-1 {
 
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+    margin: 0px;
+
     float: left;
-    width: 50%;
+    width: 47%;
 
-    display: inline-block;
+
+    padding: 0px;
+
+
 
 }
 
 
-.but-2 {
-    display: inline-block;
-    margin: 0%;
+.external-signup-link .signup-button-2 {
+    padding: 0px;
+    margin: 0px;
+
+
     float: right;
-    width: 50%;
+    width: 47%;
 
 
 }
 
-.button {
+.signup-button {
 
     border: none;
     color: white;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+
     font-size: 16px;
     margin: 4px 2px;
     transition-duration: 0.4s;
@@ -132,68 +176,81 @@ button:hover {
 }
 
 
-.button1 {
-    display: inline-block;
+.signup-button-a {
+
     background-color: white;
     color: black;
     border: 2px solid #007bff;
+
 }
 
-.button1:hover {
+.signup-button-a:hover {
     background-color: #007bff;
     color: white;
 }
 
-.button2 {
-    display: inline-block;
+.signup-button-b {
+
 
     background-color: white;
     color: black;
     border: 2px solid #212029;
 }
 
-.button2:hover {
+.signup-button-b:hover {
 
     background-color: #212029;
     color: white;
 }
 
-
-
-.footer {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 100px;
-    margin-bottom: 0px;
+.footer a {
+    text-decoration: none;
+    font-family: Inter-SemiBold, sans-serif;
+    font-size: 16px
 }
 
-p.foot-0 {
+
+
+.footer p {
     position: absolute;
-    bottom: 8px;
+    bottom: 20px;
     left: 16px;
-    font-size: 18px;
+    font-size: 12px;
+    font-family: Inter-Medium, sans-serif;
+    opacity: 0.3;
 }
 
-.foot-3 {
+.footer-link-3 {
     position: absolute;
-    bottom: 8px;
-    right: 16px;
+    bottom: 20px;
+    right: 50px;
     font-size: 18px;
+    text-decoration: none;
 
-}
 
-.foot-2 {
-    position: absolute;
-    bottom: 8px;
-    right: 200px;
-    font-size: 18px;
 
 }
 
-.foot-1 {
+.footer .footer-link-2 {
     position: absolute;
-    bottom: 8px;
-    right: 400px;
-    font-size: 18px;
+    bottom: 20px;
+    right: 150px;
 
+
+
+}
+
+.footer .footer-link-1 {
+    position: absolute;
+    bottom: 20px;
+    right: 250px;
+
+
+
+}
+
+.footer .footer-links a {
+    color: #212029;
+    font-family: sans-serif;
+    font-size: 16px;
 }
